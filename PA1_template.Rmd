@@ -4,17 +4,13 @@ output:
   html_document:
     keep_md: true
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 9c849b04827fb13981ba0e87d24ce86749daa32e
+
 ## Setting all R chunks to echo = TRUE
 ```{r setOptions}
 library(knitr)
 opts_chunk$set(echo = TRUE)
 ```
-<<<<<<< HEAD
-=======
+
 
 ## Loading and preprocessing the data
 
@@ -255,8 +251,3 @@ xyplot(steps~interval | day.type, data = activity_no_na_plot, type = "l", aspect
 
 ```
 
-
-
-=======
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
->>>>>>> 9c849b04827fb13981ba0e87d24ce86749daa32e
