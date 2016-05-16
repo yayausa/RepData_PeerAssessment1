@@ -4,6 +4,7 @@ output:
   html_document:
     keep_md: true
 ---
+<<<<<<< HEAD
 ## Setting all R chunks to echo = TRUE
 ```{r setOptions}
 library(knitr)
@@ -128,3 +129,24 @@ xyplot(steps~interval | day.type, data = activity_no_na_plot, type = "l", aspect
 
 
 
+=======
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
