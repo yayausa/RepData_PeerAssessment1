@@ -4,7 +4,7 @@
 
 ```r
 library(knitr)
-opts_chunk$set(echo = TRUE)
+opts_chunk$set(echo = TRUE, keep.blank.lines = TRUE)
 ```
 
 
@@ -61,7 +61,7 @@ median(steps_per_day$steps)
 
 ```r
 avg_no_of_steps <- aggregate(steps~interval, data = activity, FUN = mean, na.rm = TRUE)
-plot(steps~interval, data = avg_no_of_steps, type = "l")
+plot(steps~interval, data = avg_no_of_steps, type = "l", xlab = "Interval", ylab = "Steps", main = "No. of Steps per Interval")
 ```
 
 ![](PA1_template_files/figure-html/avgNoOfStepsPerInterval-1.png)<!-- -->
